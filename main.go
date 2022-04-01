@@ -1,9 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
+import "github.com/k9mil/etykietka/cmd"
 
 func main() {
-	fmt.Println("etykietka")
+	cmd.Root()
 }
